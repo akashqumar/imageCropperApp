@@ -1,0 +1,70 @@
+/* 
+.box{
+  margin : 10px;
+  padding: 50px;
+  background-color: rgb(182, 246, 224);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.Crop-Controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Crop-Controls {
+  margin: 10px;
+}
+.imginput{
+  margin: 50px;
+} */
+
+
+.box {
+  
+  background-color: rgb(182, 246, 224);
+  border-radius: 10px;
+  margin:auto ;
+  padding: 8rem;
+  max-width: 800px;
+
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Crop-Controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.Crop-Controls label {
+  font-size: 1.2rem;
+}
+
+.Crop-Controls div {
+  display: flex;
+  align-items: center;
+}
+
+.Crop-Controls div:not(:first-child) {
+  margin-left: 1rem;
+}
+
+.Crop-Controls button {
+  margin-left: 1rem;
+}
+
+canvas {
+  margin: 1rem 0;
+  display: block;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
